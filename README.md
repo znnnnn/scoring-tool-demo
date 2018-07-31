@@ -1,2 +1,2 @@
-# pione studio
-一个小小的计分工具
+# 一个小小的计分工具
+authour: mr-zn
