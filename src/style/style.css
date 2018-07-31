@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 50px;
+    text-align: center;
+    overflow: hidden;
+    background: #fff;
+    /* padding: 0; */
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    margin-left: -48px;
+    bottom: 20px;
+}
+
+
+.container .col-md-3 {
+    height: 100px;
+    /* border: 1px solid red; */
+    /* box-sizing: border-box; */
+    /* height: 850px; */
+    /* margin: 1px; */
+}
+
+.container .col-md-3>div {
+    padding: 10px 0;
+    transition: 0.5s height;
+}
+
+.Fi {
+    /* margin-left: 2.5%; */
+    background: #393D49;
+}
+
+.Se {
+    background: #FF5722;
+}
+
+.Th {
+    background: #5FB878;
+}
+
+.Fo {
+    background: #FFB800;
+}
+
+.addScore {
+    cursor: pointer;
+    display: none;
+}
+
+.tipBox {
+    margin-top: -40px;
+    font-weight: bold;
+}
+
+.tipBox h3 {
+    font-weight: 600;
+}
+
+.col-xs-3 button {
+    margin: 5px 2px;
+}
+
+.el-button--text {
+    background: ghostwhite;
+    padding: 0;
+    height: 24px;;
+    color: #000;
+}
+
+.el-button--text:hover {
+    color: #000;
+    border: 1px solid #9c9c9c
+}
