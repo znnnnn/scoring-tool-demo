@@ -1,7 +1,7 @@
 {
   "name": "scoring",
-  "version": "0.0.1",
-  "description": "pione studio scoring",
+  "version": "1.0.0",
+  "description": "scoring tool demo",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.1.3",
